@@ -1,0 +1,330 @@
+body{
+    font-family: sans-serif;
+}
+
+
+.wrapper .image img{
+    width: 100px;
+}
+
+
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(88, 120, 188);
+    font-weight: bold;
+
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.first a{
+    margin-right: 30px;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.second a{
+    margin-left: 30px;
+}
+
+
+
+
+
+/* main1 */
+
+.contain{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contain h1{
+    font-size: 2.5rem;
+    color: rgb(88, 112, 135);
+}
+
+.contain .text{
+    margin-top: 30px;
+    font-size: 20px;
+ font-weight: lighter;
+    line-height: 1.35;
+    color: #777;
+}
+
+
+
+
+/* image section */
+
+
+
+#images{
+    margin-top: 70px;
+}
+.con{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.con .wrapper{
+    color: rgb(65, 153, 252);
+    font-weight: bold;
+}
+
+.con .some{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.some .wrap{
+    margin-left: 30px;
+    width: 20%;
+    margin-bottom: 40px;
+}
+
+.wrapper .img{
+    width: 80%;
+}
+
+
+.tex{
+    margin-top: 50px;
+}
+
+
+.some .wrap a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer section */
+
+
+.para p{
+    font-size: 18px;
+}
+
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+
+.cont{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(88, 112, 135);
+}
+
+.foot a{
+    text-decoration: none;
+    color: rgb(88, 112, 135);
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot a p{
+    margin-left: 10px;
+    color: rgb(88, 112, 135);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+footer{
+    margin-bottom: 80px;
+}
+
+@media(max-width: 900px){
+
+    
+header a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(88, 120, 188);
+    font-weight: bold;
+
+}
+
+#main1 .container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .contain{
+    margin-top: 0;
+   
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+}
+.contain h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    color: rgb(88, 112, 135);
+}
+.contain .text{
+
+    font-size: 18px;
+ font-weight: lighter;
+    line-height: 1.35;
+    color: #777;
+}
+
+ .wrapper .img img{
+     width: 90px;
+     height: 90px;
+ }
+ 
+ .con .wrapper{
+    color: rgb(65, 153, 252);
+    font-weight: 800;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 40px;
+}
+ 
+ }
+
+
+ @media(max-width: 580px){
+
+    
+    header a{
+        text-decoration: none;
+        font-size: 14px;
+        color: rgb(88, 120, 188);
+        font-weight: bold;
+    
+    }
+    
+        .container{
+             width: 90%;
+             margin: 0 auto;
+     }
+
+     #main1 .container{
+         width: 100%;
+     }
+     
+    .container .contain{
+        margin-top: 0;
+       
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        
+    }
+    .contain .text{
+      
+        font-size: 17px;
+     font-weight: lighter;
+        line-height: 1.35;
+        color: #777;
+    }
+
+    .con{
+        width: 100%;
+        margin: 0 ;
+        margin-right: 100px;
+        
+    }
+    
+}
+
+
+
+
+@media(max-width: 600px){
+    .foot{
+        display: block;
+   
+        color: rgb(88, 112, 135);
+    }
+
+    .cont{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .foot a p{
+        margin-left: 10px;
+        color: rgb(88, 112, 135);
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .para p{
+        font-size: 16px;
+    }
+}
